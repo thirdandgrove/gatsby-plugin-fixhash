@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-plugin-fixhash",
+  "version": "0.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Third and Grove <thirdandgrove.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thirdandgrove/gatsby-plugin-fixhash"
+  },
+  "contributors": [
+    "Grant Glidewell <grant@thirdandgrove.com>"
+  ],
+  "keywords": [
+    "gatsby",
+    "plugin",
+    "hash",
+    "routing",
+    "router",
+    "fix"
+  ]
+}
