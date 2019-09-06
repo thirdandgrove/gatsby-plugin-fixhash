@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-fixhash",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "license": "MIT",
   "author": "Third and Grove <thirdandgrove.com>",
@@ -14,6 +14,7 @@
   "keywords": [
     "gatsby",
     "plugin",
+    "gatsby-plugin",
     "hash",
     "routing",
     "router",
