@@ -15,11 +15,16 @@ exports.onInitialClientRender = (_, pluginOptions) => {
   if (pluginOptions.offsetY) {
     offsetY = pluginOptions.offsetY;
   }
+  if (pluginOptions.scrollToOptions) {
+    scrollToOptions = pluginOptions.scrollToOptions;
+  }
 
   requestAnimationFrame(() => {
     const offset = getTargetOffset(window.location.hash);
     if (offset !== null) {
-      window.scrollTo(0, offset);
+      scrollToOptions
+        ? window.scrollTo({ ...scrollToOptions, top: offset })
+        : window.scrollTo(0, offset);
     }
   });
 };
